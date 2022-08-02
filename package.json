@@ -1,0 +1,27 @@
+{
+  "name": "goit-js-hw-09-classwork",
+  "version": "1.0.0",
+  "source": "src/index.html",
+   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "NPM basics",
+ 
+  "scripts": {
+    
+    "start": "parcel  --open chrome ",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/77Andrey77/goit-js-hw-09-classWork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/77Andrey77/goit-js-hw-09-classWork/issues"
+  },
+  "homepage": "https://github.com/77Andrey77/goit-js-hw-09-classWork#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2"
+  }
+}
