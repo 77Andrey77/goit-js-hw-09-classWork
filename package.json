@@ -6,10 +6,10 @@
   "description": "NPM basics",
  
   "scripts": {
-    
-    "start": "parcel  --open chrome ",
-    "watch": "parcel watch",
-    "build": "parcel build"
+     "serve": "parcel src/index.html  --open chrome",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-09-classWork/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
