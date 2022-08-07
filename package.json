@@ -4,6 +4,7 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "NPM basics",
+
   "scripts": {
     "serve": "parcel src/index.html  --open chrome",
     "build": "parcel build src/index.html --public-url /goit-js-hw-09-classWork/",
@@ -19,11 +20,12 @@
   "bugs": {
     "url": "https://github.com/77Andrey77/goit-js-hw-09-classWork/issues"
   },
-  "homepage": "https://77Andrey77/github.io/goit-js-hw-09-classWork",
+  "homepage": "https://77Andrey77.github.io/goit-js-hw-09-classWork/",
   "devDependencies": {
     "parcel": "^2.6.2"
   },
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
