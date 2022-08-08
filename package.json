@@ -1,7 +1,6 @@
 {
   "name": "goit-js-hw-09-classwork",
   "version": "1.0.0",
-  "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "description": "NPM basics",
 
